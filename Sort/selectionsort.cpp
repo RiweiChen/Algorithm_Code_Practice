@@ -3,7 +3,7 @@ using namespace std;
 
 //选择排序
 
-void selectionsort(int *data,int len)
+void selectionsort(int * data,int len)
 {
     int max_id;
     int temp;

@@ -4,6 +4,7 @@
 
 #include<bubblesort.cpp>
 #include<selectionsort.cpp>
+#include<quicksort.cpp>
 
 #define random(x) (rand()%x)
 
@@ -46,6 +47,12 @@ int main()
     cout<<"Sorted Data"<<endl;
     printArray(data,10);
 
+    makeRandomData(data,10);
+    cout<<"Origion Data"<<endl;
+    printArray(data,10);
+    quicksort(data,0,9);
+    cout<<"Sorted Data"<<endl;
+    printArray(data,10);
 
     return 0;
 }

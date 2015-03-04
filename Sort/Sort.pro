@@ -5,7 +5,8 @@ CONFIG -= qt
 
 SOURCES += main.cpp \
     bubblesort.cpp \
-    selectionsort.cpp
+    selectionsort.cpp \
+    quicksort.cpp
 
 include(deployment.pri)
 qtcAddDeployment()
